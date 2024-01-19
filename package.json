@@ -1,0 +1,11 @@
+{
+  "name": "trng-00001935-wft-randstad-graphlql",
+  "version": "1.0.0",
+  "description": "Playground Link:\r https://countries.trevorblades.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
