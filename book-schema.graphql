@@ -1,0 +1,31 @@
+type Query {
+   fantasyAuthors: [Author]
+   books: [Book]
+   authors: [Author]
+}
+
+type Mutation {
+    addBook (
+        title:String
+        authorName: String
+        genere:String
+    ):Book
+}
+
+type Book {
+    isbn: ID!
+    authors: [Author!]!
+    genere: GENERE
+    title: String
+}
+
+type Author {
+    name: String
+    books: [Book!]!
+}
+
+enum GENERE {
+    FICTION
+    SCIENCE
+    RELIGION
+}
